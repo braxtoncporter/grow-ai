@@ -1,7 +1,10 @@
 from datetime import datetime
+
 from sqlalchemy import String, func
 from sqlalchemy.orm import Mapped, mapped_column
+
 from growai.db.session import Base
+
 
 class User(Base):
     __tablename__ = "users"          # name of the "tab"
